@@ -1,0 +1,126 @@
+header{
+    background-color: #ff6d19;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 30px rgb(204, 202, 202);
+}
+
+.encabezado{
+    width: 80px;
+    position: static;
+}
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#dragon-titulo{
+    width: 900px;
+    padding-left: 500px;
+    position: static;
+}
+
+article{
+    width: 350px;
+    border: 1px solid #ff6d19;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 60px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px #e99f7d;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+article h3{
+    font-size: xx-large;
+    color: #ff6d19;
+}
+
+article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px gray;
+    background-color: rgb(243, 243, 233);
+}
+
+h3{
+    text-align: center;
+}
+
+/* Botones de navegación */
+
+nav ul {
+    list-style: none;      
+    display: flex;       
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#enlace a{
+    background-color: #df5925;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+#enlace a:hover{
+    background-color: #ebe4e1;
+    color: #000;
+} 
+
+/* Footer */
+
+#pie{
+    width: 100%;
+    padding: 15px;
+    height: 80px;
+    margin-top: 30px;
+    background-color: #ff6d19;
+    box-shadow: 0px 5px 30px rgb(148, 145, 145);
+}
+
+#copy{
+    background-color: #ff6d19;
+    margin-left: 45%;
+    color: #e8ecdd;
+}
+
+/* Botón para subir */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.subir{
+    position: fixed;
+    bottom: 20px;   
+    right: 20px;     
+    z-index: 1000;   
+
+    /* Estilo de círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    
+    background-color: #d17723; 
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.readmore_btn{
+    background-color: #df5925;
+    color: #ffffff;
+}
